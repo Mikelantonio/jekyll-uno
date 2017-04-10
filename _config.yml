@@ -1,6 +1,7 @@
 # Site settings
-title: Nerdipity
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+title: Nerdipity - Michelantonio Trizio
+description: 'Engineer, Entrepreneur, Android dev'
+motto: '#nerdipity is the way'
 url: 'http://joshgerdes.com/jekyll-uno'
 baseurl: '/jekyll-uno/'
 # google_analytics: 'UA-XXXXXX-X'
@@ -9,10 +10,11 @@ baseurl: '/jekyll-uno/'
 author:
   name: 'Michelantonio Trizio'
   email: mikelantonio.trizio@gmail.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  twitter_username: mik3lantoni0
+  github_username:  Mikelantonio
+  linkedin_username:  michelantoniotrizio
+  stackoverflow_username: 1049741/michelantonio-trizio
+  medium_username: mikelantonio.trizio
 
 defaults:
   -
