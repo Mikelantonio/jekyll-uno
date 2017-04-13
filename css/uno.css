@@ -68,6 +68,10 @@ body {
 	display: inline-block;
 	text-decoration: inherit; }
 
+	.user-image{
+		box-sizing: content-box;
+	}
+
 .icon-address-book:before {
 	content: "\f100"; }
 
@@ -1278,7 +1282,10 @@ hr {
 		color: #FFF; }
 
 .cover-navigation {
-	margin-top: 10px; }
+	background-color: transparent;
+	margin-top: 10px;
+	box-shadow: 0 0 0 0;
+	width: auto; }
 
 .cover-navigation--social {
 	margin-left: 30px; }
@@ -1389,7 +1396,7 @@ nav {
 			opacity: 1; }
 
 .navigation--social {
-	/*margin-left: 1.5em;*/ 
+	/*margin-left: 1.5em;*/
 }
 	.navigation--social a {
 		padding: 6px 8px 6px 9px; }
@@ -1398,6 +1405,11 @@ nav {
 		.navigation--social a .icon {
 			display: block;
 			font-size: 1.7em; }
+
+.navigation--social a i {
+	height: auto;
+	line-height: 1;
+}
 
 .pagination {
 	display: block;
@@ -1558,9 +1570,11 @@ input[type="tel"] {
 	input[type="tel"]:-ms-input-placeholder {
 		color: #cccccc; }
 
-@media all and (min-width: 1300px) {
+/*@media all and (min-width: 1300px) {
 	.content-wrapper {
-		margin-left: 530px; } }
+		margin-left: 530px;
+		}
+	}*/
 @media all and (max-width: 1100px) {
 	.panel-cover__logo {
 		width: 70px; }
@@ -1643,6 +1657,7 @@ input[type="tel"] {
 		float: left;
 		clear: left;
 		width: 100%; }
+
 		.cover-navigation .navigation {
 			display: block;
 			width: 100%; }
