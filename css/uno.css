@@ -1593,6 +1593,11 @@ input[type="tel"] {
 		margin-top: 5px;
 		margin-left: 0; } }
 @media all and (max-width: 960px) {
+
+	.mobile-vertical-overflow{
+		overflow: hidden;
+	}
+
 	.btn-mobile-menu {
 		display: block; }
 
