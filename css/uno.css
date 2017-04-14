@@ -1654,7 +1654,7 @@ input[type="tel"] {
 	.cover-navigation {
 		display: block;
 		position: relative;
-		float: left;
+		float: none; /*was left */
 		clear: left;
 		width: 100%; }
 
@@ -1663,7 +1663,8 @@ input[type="tel"] {
 			width: 100%; }
 			.cover-navigation .navigation li {
 				width: 80%;
-				margin-bottom: .4em; }
+				margin-bottom: .4em;
+			  float: none; }
 		.cover-navigation.navigation--social {
 			padding-top: 5px; }
 			.cover-navigation.navigation--social .navigation li {
